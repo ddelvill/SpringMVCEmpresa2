@@ -28,7 +28,7 @@ public class TelefonoServiceImpl implements TelefonoService{
 
     @Override
     @Transactional
-    public void svae(Telefono telefono) {
+    public void save(Telefono telefono) {
         telefonoDao.save(telefono);
     }
 

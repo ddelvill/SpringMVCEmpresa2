@@ -9,7 +9,7 @@ public interface TelefonoService {
     
     public List<Telefono> findAll();
     public Telefono findById(int idTelefono);
-    public void svae(Telefono telefono);
+    public void save(Telefono telefono);
     public void deleteById(int idTelefono);
     public void deleteByEmpleado(Empleado empleado);
 }
